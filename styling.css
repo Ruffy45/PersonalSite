@@ -1,0 +1,111 @@
+body{
+    background: url();
+    background-position: center;
+    background-size: cover;
+    background-color: #00FFC6;
+}
+
+h1{
+    text-align: center;
+    font-family:Helvetica
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-right: 15px;
+    transition: 0.6 ease;
+}
+
+ul li.active a{
+    background-color: black;
+    color: aquamarine;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: aquamarine;
+}
+#demoFont {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2.8px;
+    word-spacing: -3.6px;
+    color: 	#e03862;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: oblique;
+    font-variant: normal;
+    text-transform: none;
+    }
+    #text{
+        font-family: Space Grotesk, sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+        color: #22577E;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 2em;
+        letter-spacing: 0px;
+    }
+    .btn-group button {
+        background-color: #43919B; 
+        border: 1px solid #30AADD ; 
+        color: white; 
+        padding: 10px 24px; 
+        cursor: pointer; 
+        float: left;
+      }
+      
+      .btn-group button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      /* Add a background color on hover */
+      .btn-group button:hover {
+        background-color: #30AADD;
+      }
+      /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* hover effect  */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  /* github*/
+  .fa-github {
+    background: #171515 ;
+    color: white;
+    position: fixed;
+    bottom: -4px;
+  }
+  
+  
